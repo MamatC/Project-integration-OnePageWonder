@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+:root {
+    --white: #ffffff;
+    --gray: #a2a2a2;
+    --pink: #e71969;
+    --pink-dark: #991e5f;
+    --orange: #f56306;
+    --orange-dark: #ff2400;
+    --black-op-85: rgba(0, 0, 0, 0.85);
+}
+
+/* NAV */
+
+.container1{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+nav{
+    background-color: var(--black-op-85);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 5px 0;
+}
+nav div a{
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav .container1 li a{
+    text-decoration: none;
+    color: var(--gray);
+    font-weight: bold;
+    transition: 500ms;
+}
+nav .container1 a:hover{
+    color: var(--white);
+    transition: 500ms;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+/* HEADER */
+
+header{
+    padding: 150px 0;
+    background: rgb(200,33,146);
+    background: linear-gradient(90deg, rgba(200,33,146,1) 0%, rgba(214,68,110,1) 0%, rgba(246,149,23,1) 100%, rgba(255,171,0,1) 100%); 
+}
+header a{
+    text-decoration: none;
+    color: var(--white);
+    padding: 30px 40px;
+    background-color: var(--pink-dark);
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: 500ms;
+}
+header a:hover{
+    transition: 500ms;
+    background-color: var(--orange);
+}
+.container2{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    color: var(--white);
+    font-size: 5.8em;
+    margin-bottom: 0;
+}
+h2{
+    color: var(--white);
+    font-size: 4em;
+    padding-bottom: 50px;
+    margin-top: 0;
+}
+
+/* MAIN */
+main section{
+    margin: 150px 0;
+}
+
+main section div img{
+    width: 40%;
+    border-radius: 100%;
+}
+h3{
+    font-weight: lighter;
+    margin: 0;
+    font-size: 4em;
+}
+
+/* FOOTER */
+
+footer{
+    padding: 10px 0;
+    color: var(--gray);
+    border-top: 1px solid var(--gray);
+}
+.bold{
+    font-weight: bold;
+}
